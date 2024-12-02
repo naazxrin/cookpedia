@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Playfair Display", serif;
+
+}
+.landingImg{
+    transition: 2s;
+}
+.landingImg:hover{
+    scale: 1.12;
+    transition: ease-in-out 1s;
+    rotate: 180deg;
+}
